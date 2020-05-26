@@ -1,0 +1,89 @@
+.bigbox {
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0, 0, 255, 0.25);
+	padding: 2vw;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto;
+	grid-gap: 2vw;
+}
+
+.card-style {
+	padding: 2vw;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.card-title {
+	grid-column: 3;
+	grid-row: 1/3;
+}
+
+.card-logo {
+	grid-column: 2;
+	grid-row: 1;
+}
+
+.card-subtitle {
+	grid-column: 2;
+	grid-row: 2/4;
+}
+
+.card-body {
+	grid-column: 3;
+}
+
+.sidebar {
+	grid-row: span 3;
+}
+
+.img-cover {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+#shifter {
+	animation: 5s ease-in-out infinite alternate shifter;
+}
+
+.flexbox {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+h1 {
+	font-size: 6.5vw;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: rgba(0, 0, 255, 0.75);
+	margin-bottom: 2vw;
+}
+
+h2 {
+	font-size: 3vw;
+	font-weight: bold;
+	color: rgba(0, 111, 0, 0.75);
+	margin-bottom: 2vw;
+}
+
+p {
+	font-size: 2vw;
+	font-weight: ;
+	color: rgba(0, 0, 0, 0.75);
+	margin-bottom: 2vw;
+}
+
+
+@keyframes shifter {
+	0% {
+
+	}
+	100% {
+
+	}
+}
